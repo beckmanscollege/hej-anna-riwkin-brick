@@ -1,0 +1,993 @@
+@font-face{
+  font-family: "EricaType";
+  src: url(https://cdn.glitch.me/9b7ae833-54b6-41d7-8af5-6bd5156fb712%2Ferica-type.regular.ttf?v=1635260547049) format("truetype");
+}
+
+* {
+  margin: 0;
+  margin-top: 0;
+  border: 0;
+  padding: 0;
+}
+
+main {
+  margin-top: 2%;
+}
+
+div#hem {
+  padding-top: 1%;
+}
+
+body {
+  background-color: #302F90;
+}
+
+
+p {
+  
+  font-family: "EricaType";
+  
+  /*
+  font-family: prestige-elite-std, monospace;
+  font-weight: 700;
+  font-style: normal;*/
+  
+
+
+  line-height: 1.3;
+
+  color: #D3CEC2;
+
+  font-size: 2.7vw;
+
+  letter-spacing: -0.1;
+}
+
+p.rubrik{
+margin-bottom:-5%;
+padding-top: 3%;
+}
+
+p.citat {
+  font-family: monarcha, serif;
+  font-weight: 300;
+  font-style: italic;
+
+  line-height: 1.3;
+  color: #F5630F;
+
+  font-size: 3vw;
+}
+
+p.by-line {
+  font-family: prestige-elite-std, monospace;
+  font-weight: 700;
+  font-style: normal;
+  color: #D3CEC2;
+
+  font-size: 0.9vw;
+
+  text-align: center;
+
+  letter-spacing: -0.2;
+
+  padding-top: 1.7%;
+
+  opacity: 0.4;
+}
+
+h1 {
+  text-align: center;
+  font-family: monarcha, serif;
+  font-weight: 300;
+  font-style: italic;
+
+  color: #D3CEC2;
+
+  font-size: 6.5vw;
+}
+
+section {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+}
+
+section > div {
+  /*background-color: var(--color);*/
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+/* ––––– BLOCK 1 ––––––– */
+
+#block1 {
+  top: 0;
+}
+
+img#pil1 {
+  position: absolute;
+  width: 10%;
+  top: 65%;
+  left: 23%;
+}
+
+#block1 .inner {
+  display: inline;
+  top: 0%;
+  left: 0%;
+}
+
+#block1 p {
+  margin-top: -11%;
+  text-align: center;
+  max-width: 54vw;
+}
+
+/* ––––– BLOCK 2 ––––––– */
+
+#block2 {
+  top: 77%;
+  left: 27%;
+
+  display: flex;
+}
+
+#block2 .inner {
+  top: 3%;
+  left: 5%;
+}
+
+#block2 p.citat {
+  margin-top: 12%;
+  margin-left: 5%;
+  width: 48vw;
+}
+
+img#anna-riwkin1 {
+  height: 88vh;
+}
+
+/* ––––– BLOCK 3 ––––––– */
+
+#block3 {
+  left: 105%;
+  top: 1%;
+}
+
+#block3 .inner {
+  margin-left: 2%;
+  margin-top: 10%;
+}
+
+#block3 p.brod {
+  max-width: 45vw;
+  margin-left: 4%;
+  margin-top: -5%;
+}
+
+img#dans1 {
+  height: 70vh;
+}
+
+img#dans2 {
+  margin-left: 7%;
+  height: 64vh;
+
+}
+
+img#deko1 {
+  position: absolute;
+  height: 19vh;
+  margin-top: 0%;
+  margin-left: 2%;
+}
+
+img#deko2 {
+  position: absolute;
+  height: 19vh;
+  margin-top: -12%;
+  margin-left: -9%;
+}
+
+#dans2-text {
+  margin-top: -35%;
+}
+
+/* ––––– BLOCK 4 ––––––– */
+
+#block4 {
+  top: 85%;
+  left: 166%;
+}
+
+#block4.inner {
+  margin-left: 5%;
+}
+
+#block4 p.citat {
+  margin-top: -9%;
+  margin-left: 3%;
+  margin-right: 0%;
+  max-width: 50vw;
+}
+
+img#dans3 {
+  height: 90vh;
+}
+
+/* ––––– BLOCK 5 ––––––– */
+
+#block5 {
+  top: 163%;
+  left: 165%;
+}
+
+#block5 .inner {
+  margin-top: ;
+  margin-left: 50%;
+}
+
+img#dans4 {
+  height: 90vh;
+}
+
+img#deko3 {
+  height: 24vh;
+  margin-top: -44%;
+  margin-left: -9%;
+}
+
+/* ––––– BLOCK 6 ––––––– */
+
+#block6 {
+  top: 215%;
+  left: 160%;
+}
+
+#block6 .inner {
+  margin-top: -2%;
+  margin-left: -49%;
+}
+
+img#dans5 {
+  width: 73vh;
+}
+
+/* ––––– BLOCK 7 ––––––– */
+
+#block7 {
+  top: 287%;
+  left: 155%;
+  display: inline;
+}
+
+#block7 .inner {
+  margin-top: 2%;
+  margin-left: 60%;
+}
+
+img#daniel1 {
+  width: 67vh;
+}
+
+#block7 p.brod {
+  position: absolute;
+  margin-left: 10%;
+  margin-top: -30%;
+  width: 47vw;
+}
+
+/* ––––– BLOCK 8 ––––––– */
+
+#block8 {
+  top: 365%;
+  left: 162%;
+}
+
+#block8 .inner {
+  margin-top: 2%;
+  margin-left: -13%;
+}
+
+img#daniel2 {
+  width: 60vh;
+}
+
+img#deko4 {
+  position: absolute;
+  margin-left: 47%;
+  margin-top: -4%;
+  width: 10vh;
+}
+
+img#deko5 {
+  position: absolute;
+  margin-left: -5%;
+  margin-top: 0%;
+  width: 10vh;
+}
+
+#block8 p.citat {
+  margin-top: 0%;
+  width: 46vw;
+}
+
+#deko-bild2 {
+  margin-top: 8%;
+  margin-left: 8%;
+}
+
+/* ––––– BLOCK 9 ––––––– */
+
+#block9 {
+  top: 430%;
+  left: 248%;
+}
+
+#block9 .inner {
+  margin-top: -6%;
+  margin-left: 2%;
+}
+
+img#israel1 {
+  width: 82vh;
+}
+
+#block9 p.brod {
+  margin-left: 4%;
+  margin-top: -15%;
+  width: 46vw;
+}
+
+/* ––––– BLOCK 9.2 ––––––– */
+
+#block9-2 {
+  top: 543%;
+  left: 266%;
+}
+
+#block9-2 .inner {
+  margin-top: -10%;
+  margin-left: 25%;
+}
+
+img#anna-riwkin2 {
+  width: 35vh;
+}
+
+img#deko6 {
+  margin-left: 12%;
+  margin-top: 25%;
+  position: absolute;
+  width: 12vh;
+}
+
+img#deko7 {
+  margin-left: -57%;
+  margin-top: 35%;
+  position: absolute;
+  width: 45vh;
+}
+
+/* ––––– BLOCK 10 ––––––– */
+
+#block10 {
+  top: 613%;
+  left: 220%;
+}
+
+#block10 .inner {
+  margin-top: -2%;
+  margin-left: 5%;
+}
+
+#block10 p.citat {
+  margin-left: -5%;
+  margin-top: -10%;
+  width: 45vw;
+}
+
+img#karin-boye {
+  width: 62vh;
+}
+
+/* ––––– BLOCK 11 ––––––– */
+
+#block11 {
+  top: 687%;
+  left: 170%;
+}
+
+#block11 .inner {
+  margin-top: -2%;
+  margin-left: 5%;
+}
+
+img#astrid {
+  width: 85vh;
+}
+
+#block11 p.brod {
+  margin-left: 0%;
+  margin-top: -8%;
+  width: 44vw;
+}
+
+/* ––––– BLOCK 12 ––––––– */
+
+#block12 {
+  top: 770%;
+  left: 120%;
+}
+
+#block12 .inner {
+  margin-top: 2%;
+  margin-left: 8%;
+}
+
+img#dali {
+  height: 79%;
+}
+
+#daligang-text {
+  margin-top: 4%;
+}
+
+img#dali-gang {
+  width: 85vh;
+  margin-right: 0%;
+  margin-top: 13%;
+}
+
+img#deko8 {
+  position: absolute;
+  margin-left: 20%;
+  margin-top: -15%;
+  width: 30vh;
+}
+
+img#deko9 {
+  position: absolute;
+  margin-left: -5%;
+  margin-top: -6%;
+  width: 30vh;
+}
+
+/* ––––– BLOCK 13 ––––––– */
+
+#block13 {
+  top: 686%;
+  left: 65%;
+}
+
+#block13 .inner {
+  margin-top: 3%;
+  margin-left: 10%;
+}
+
+img#eugene {
+  width: 65vh;
+}
+
+#block13 p.citat {
+  margin-left: 0%;
+  margin-top: -12%;
+  width: 45vw;
+}
+
+/* ––––– BLOCK 14 ––––––– */
+
+#block14 {
+  top: 765%;
+  left: 10%;
+}
+
+#block14 .inner {
+  margin-top: 0%;
+  margin-left: 8%;
+}
+
+#vagor {
+  margin-top: -5%;
+  margin-left: 10%;
+}
+
+#vag1 {
+  position: absolute;
+  margin-top: -10%;
+  margin-left: 10%;
+  width: 30%;
+}
+
+#vag2 {
+  position: absolute;
+  margin-left: 0%;
+  margin-top: 0%;
+  width: 30%;
+}
+
+img#harry {
+  width: 65vh;
+}
+
+#block14 p.citat {
+  width: 47vw;
+  margin-top: -10%;
+  margin-left: 0%;
+}
+
+/* ––––– BLOCK 15 ––––––– */
+
+#block15 {
+  top: 847%;
+  left: 25%;
+}
+
+#block15 .inner {
+  margin-top: -2%;
+  margin-left: 2%;
+}
+
+img#elle1 {
+  width: 65vh;
+}
+
+#block15 p.brod {
+  max-width: 54vw;
+  margin-left: 6%;
+  margin-top: 5%;
+}
+
+/* ––––– BLOCK 16 ––––––– */
+
+#block16 {
+  top: 928%;
+  left: 92%;
+}
+
+#block16 .inner {
+  margin-top: -4%;
+  margin-left: -6%;
+}
+
+img#elle2 {
+  width: 82vh;
+  margin-left: ;
+  margin-right: 2%;
+}
+
+#text-deko-elle2 {
+  margin-left: 3%;
+}
+
+#deko-rund {
+  position: absolute;
+  width: 8%;
+  margin-top: -25%;
+  margin-left: 40%;
+}
+
+#block16 p.brod {
+  
+  width: 40vw;
+  margin-left: 6%;
+  margin-top: 0%;
+}
+
+/* ––––– BLOCK 17 ––––––– */
+
+#block17 {
+  top: 1007%;
+  left: 135%;
+}
+
+#block17 .inner {
+  margin-top: -3%;
+  margin-left: -50%;
+}
+
+img#hawaii {
+  width: 62vh;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+/* ––––– BLOCK 18 ––––––– */
+
+#block18 {
+  top: 1055%;
+  left: 155%;
+}
+
+#block18 .inner {
+  margin-top: -3%;
+  margin-left: 0%;
+}
+
+img#finland1 {
+  width: 65vh;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+img#deko-finland {
+  position: absolute;
+  margin-top: -50%;
+  margin-left: 35%;
+  width: 5%;
+}
+
+/* ––––– BLOCK 19 ––––––– */
+
+#block19 {
+  top: 1120%;
+  left: 230%;
+}
+
+#block19 .inner {
+  margin-top: -3%;
+  margin-left: 0%;
+}
+
+img#norge1 {
+  width: 65vh;
+}
+
+#block19 p.citat {
+  margin-left: 6%;
+  max-width: 50vw;
+  margin-top: -12%;
+}
+
+/* ––––– BLOCK 20 ––––––– */
+
+#block20 {
+  top: 1195%;
+  left: 240%;
+}
+
+#block20 .inner {
+  margin-top: -3%;
+  margin-left: 50%;
+}
+
+img#holland1 {
+  width: 100vh;
+}
+
+/* ––––– BLOCK 21 ––––––– */
+
+#block21 {
+  top: 1263%;
+  left: 182%;
+}
+
+#block21 .inner {
+  margin-top: -1%;
+  margin-left: 50%;
+}
+
+img#sia {
+  height: 88vh;
+}
+
+/* ––––– BLOCK 22 ––––––– */
+
+#block22 {
+  top: 1185%;
+  left: 130%;
+}
+
+#block22 .inner {
+  margin-top: 0%;
+}
+
+img#reportage1 {
+  height: 90vh;
+}
+
+#block22 p.brod {
+  margin-top: -13%;
+  max-width: 45vw;
+  margin-right: 4%;
+  font-size: 2.4vw;
+}
+
+/* ––––– BLOCK 23 ––––––– */
+
+#block23 {
+  top: 1263%;
+  left: 75%;
+}
+
+#block23 .inner {
+  margin-top: 0%;
+  margin-left: 30%;
+}
+
+img#reportage2 {
+  height: 90vh;
+}
+
+/* ––––– BLOCK 23.2 ––––––– */
+
+#block23-2 {
+  top: 1345%;
+  left: 60%;
+}
+
+#block23-2 .inner {
+  margin-top: 0%;
+  margin-left: -5%;
+}
+
+img#reportage3 {
+  height: 90vh;
+}
+
+#block23-2 p.citat {
+  margin-top: 5%;
+  margin-left: 5%;
+  width: 40vw;
+}
+
+/* ––––– BLOCK 23.3 ––––––– */
+
+#block23-3 {
+  top: 1345%;
+  left: 60%;
+}
+
+#block23-3 .inner {
+  margin-top: 0%;
+  margin-left: -5%;
+}
+
+img#reportage4 {
+  height: 90vh;
+}
+
+#block23-3 p.citat {
+  margin-top: 5%;
+  margin-left: 5%;
+  width: 40vw;
+}
+
+
+/* ––––– BLOCK 24 ––––––– */
+
+#block24 {
+  top: 1450%;
+  left: 0%;
+}
+
+#block24 .inner {
+  margin-top: 0%;
+  margin-left: 80%;
+}
+
+img#anna-riwkin3 {
+  height: 80vh;
+}
+
+/* ––––– BLOCK 25 ––––––– */
+
+#block25 {
+  top: 1440%;
+  left: 7%;
+  display: inline;
+}
+
+#block25 .inner {
+  margin-top: 0;
+  margin-left: 0;
+}
+
+#block25 p {
+  margin-top: 0;
+  margin-left: 0;
+  text-align: center;
+}
+
+img#riwkin-logga {
+  display: block;
+  max-width: 50vh;
+  margin: 0 auto;
+}
+
+/* ––––– – ––––––– */
+
+.active {
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+#popup,
+h2,
+img#rotera {
+  display: none;
+}
+
+/* only when orientation is in portrait mode */
+@media all and (orientation: portrait) {
+  #popup {
+    top: 0;
+    position: fixed;
+    display: block;
+    width: 300vw;
+    height: 300vw;
+    z-index: 1;
+    background-color: #836A44;
+  }
+
+  h2,
+  img#rotera {
+    display: block;
+  }
+
+  img#rotera {
+    margin-top: 8%;
+    margin-left: 1.5%;
+    width: 90vw;
+  }
+}
+
+/* ––––– STARTSIDA /  ––––––– */
+
+#start-knapp {
+  margin: 1em auto 1em auto;
+  text-align: center;
+  background-color: #836A44;
+  padding: 0.6em;
+
+  border-radius: 2em;
+  width: 22vw;
+}
+
+div#video {
+  margin: 0 auto;
+  left: 0;
+  top: 0;
+  text-align: center;
+  padding-top: 1.3%;
+}
+
+iframe {
+  margin: 0 auto;
+}
+
+a {
+  
+  font-family: "EricaType";
+  
+  /*font-family: prestige-elite-std, monospace;
+  font-weight: 700;
+  font-style: normal;*/
+
+  line-height: 1.25;
+
+  color: #D3CEC2;
+
+  font-size: 2.3vw;
+
+  letter-spacing: -0.35;
+
+  text-decoration: none;
+}
+
+#body2 {
+  /*background-color: #D3CEC2;*/
+}
+
+#restart {
+  pointer: cursor;
+  position: fixed;
+  display: block;
+  left: 1.5%;
+  top: 3%;
+
+  z-index: 1;
+}
+
+#info-knapp {
+  cursor: pointer;
+  position: fixed;
+  display: block;
+  left: 94%;
+  top: 3%;
+
+  z-index: 1;
+}
+
+svg {
+  width: 4.4vw;
+  height: 4.4vw;
+
+  opacity: 0.7;
+}
+
+/* ––––– POPUP INSTRUKTIONER  ––––––– */
+
+/* The Modal (background) */
+.modal {
+  margin-top: -2%;
+  display: none;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100vw; /* Full width */
+  height: 100vw; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.3); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #836A44;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 3% 4% 5% 4%;
+  width: 50%; /* Could be more or less, depending on screen size */
+
+  border-radius: 20px;
+}
+
+#myModal p,
+#myModal2 p {
+  display: block;
+  text-align: center;
+  margin-top: 5%;
+  padding-bottom:2%;
+}
+
+/* The Close Button */
+.close1,
+.close {
+  cursor: pointer;
+  display: block;
+  color: #D3CEC2;
+  float: right;
+  margin-top: -5%;
+  margin-right: -1.5%;
+
+  font-weight: normal;
+}
+
+.close1 p,
+.close p {
+  font-size: 7vw;
+  float: right;
+  display: block;
+}
+
+.close1 p:hover,
+.close p:hover, .close1 p:focus,
+.close p:focus {
+  color: #302F90;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*----------------*/
+
+.modal2 {
+  margin-top: -2%;
+  display: none;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100vw; /* Full width */
+  height: 100vw; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.3); /* Black w/ opacity */
+}
